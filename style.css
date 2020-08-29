@@ -1,6 +1,6 @@
 * {
   padding: 0;
-  margin: 10;
+  margin: 0;
 }
 
 div.form{
@@ -11,8 +11,16 @@ div.form{
 }
 
 div.formy{
+  align-self: center;
   color:rgb(254, 254, 255);
   font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 800;
+  min-width: 333;
+  width: 50%;
+  align-self: center;
 }
 
 .font{
@@ -23,12 +31,11 @@ div.formy{
 .fonty{
   font-size: 40;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 25%;
 }
 
 
 .field{
-  font-size: 30;
+  font-size: 25;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,14 +44,11 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
-  margin-top: 20%;
   align-items: center;
-  margin: auto;
   cursor: pointer;
   display: row;
   padding: 0;
@@ -76,17 +80,17 @@ color: #000;
 .wrapper {
   height: auto;
   width: auto;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   display: flex;
   flex-direction: column;
+  width: 80%;
+  align-self: center;
+  max-width: 500;
 }
 
 .inner { 
-    max-width: 400px;
-    min-width: 250px;
+  width: 100%;
+    max-width: 300px;
+    min-width: 200px;
     max-height: 750px;
     min-height: 350px;
     justify-items: center;
@@ -95,40 +99,34 @@ color: #000;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 8px;
-    margin-bottom: 30;
 }
 
 button.fp {
   color: transparent;
   flex: 1;
-  margin: 35px;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 4px;
-  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20;
-  margin-bottom: 30;
-  margin-top: 0px;
-  max-width: 90px;
 }
 
 button.fv {
   color: rgb(250, 250, 250);
-  width: 250;
+  width: 80%;
   height: 50;
   background-color: rgb(0, 94, 184);
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  transform: translate(20%, -30%);
+  align-self: center;
 }
 
 .line{
   border-bottom-style: inset;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 35;
+  width: 100%;
 }
 
 .thicker {

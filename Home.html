@@ -21,18 +21,17 @@
 <body style="background-image: url('./images/a-settings.jpg');background-position: center center;
 background-size: 100% 100%;
 background-attachment: fixed;
-background-repeat: no-repeat;">
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;">
    
         <main class="wrapper">
-            <div >
+            <div style="display: flex; flex-direction: column;">
             <div class="formy">
-                <img src="./images/logo.png">
-                <br><br/>
-                <br><br/>
-                <br><br/>
-                <br><br/>
-                <h2 style="text-align: center;" >Together, We Shall Rise Again</h2>
-                <div style="display: flex; flex-direction: row;">
+                <img src="./images/logo.png" style="width: 100%; align-self: center; margin-top: 2rem;">
+
+                <h2 style="text-align: center; margin-top: 12rem;" >Together, We Shall Rise Again</h2>
+                <div style="align-self: center; display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 1rem; width: 80%">
                     <button id='btn_help' class="fp"><img src="./images/I-need-help.png"></button>
                     <button id='btn_donate' class="fp"><img src="./images/I-want-to-help.png"></button>
                 </div>
